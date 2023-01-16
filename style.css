@@ -79,7 +79,7 @@ h1 {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 28px;
-    margin-right: 5px;
+
 
 }
 
@@ -88,6 +88,7 @@ h1 {
     font-size: 13px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    margin-left: 13px;
 }
 
 p {
@@ -100,4 +101,5 @@ p {
 .price-tag {
     display: flex;
     align-items: center;
+
 }
