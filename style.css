@@ -26,17 +26,15 @@ body {
 }
 
 div img {
-    height: 375px;
+    height: 380px;
     width: 260px;
     border-radius:  10px 0 0 10px;
 }
 
 #content {
     background-color: hsl(0, 0%, 100%) ;
-    height: 375px;
+    height: 380px;
     width: 260px;
-    text-align: justify;
-
     border-radius: 0 10px 10px 0;
 }
 
@@ -47,15 +45,19 @@ div img {
 
 .button-content {
     background-color:  hsl(158, 36%, 37%);
-    width: 180px;
+    width: 210px;
     height: 38px;
     border-style: none;
-    border-radius: 5px;
+    border-radius: 7px;
+    margin-top: 15px;
+    font-size: small;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
     color: hsl(228, 12%, 48%);
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 12px;
     letter-spacing: 3px;
@@ -67,6 +69,30 @@ h1 {
     font-family: 'Fraunces', serif;
     font-weight: 700;
     font-size: 30px;
-    
 
+
+}
+
+
+#new-price {
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 28px;
+    margin-right: 5px;
+
+}
+
+#deleted-price {
+    color: hsl(228, 12%, 48%);
+    font-size: 13px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+p {
+    color: hsl(228, 12%, 48%);
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
